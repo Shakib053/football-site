@@ -273,7 +273,8 @@ header {
   }
   .player-image img {
     padding-left: 22px;
-    width: 320px;
+    padding-top: 20px;
+    width: 90%;
     height: 256px;
   }
 
@@ -329,7 +330,7 @@ header {
     color: #000000;
   }
   .standout {
-    width: 100%;
+    width: 90%;
   }
   /* .highlights {
     flex-direction: column;
@@ -360,5 +361,6 @@ header {
   }
   .standout {
     padding-right: 15px;
+    width: 100%;
   }
 }
