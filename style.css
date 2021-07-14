@@ -1,0 +1,334 @@
+/* ---------------google fonts url---------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,900&display=swap");
+
+/*------- utilities ------*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------header section's style------ */
+header {
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+  padding-top: 153px;
+}
+
+.header-title {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.header-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px 24px 10px 24px;
+  background-color: #e02c6d;
+  width: 168px;
+  height: 44px;
+  text-decoration: none;
+}
+.header-button img {
+  width: 17px;
+  height: 14px;
+}
+.header-button:hover {
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  transform: scale(1.13);
+  transition: transform 2s;
+}
+.header-left {
+  margin-bottom: 270px;
+  margin-left: 130px;
+}
+
+.header-right img {
+  width: 556px;
+  height: 438px;
+  margin-right: 120px;
+}
+
+/* --------------player section css-------------- */
+.container {
+  width: 1050px;
+  margin-top: 70px;
+  display: grid;
+  margin-left: 160px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+}
+.player {
+  width: 330px;
+  height: 474px;
+  border: 2px solid white;
+  margin-bottom: 27px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.player img {
+  width: 300px;
+  height: 256px;
+  padding: 13px;
+}
+.player-detail {
+  padding: 13px;
+}
+
+/* <!-------------------- hightlights section starts here ---------------------> */
+.highlights {
+  display: flex;
+  width: 1120px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 125px;
+}
+.highlights-title {
+  font-family: "Poppins", sans-serif;
+  color: #0a0826;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.highlights-left {
+  width: 466px;
+  height: 309px;
+  margin-right: 35px;
+  margin-bottom: 160px;
+}
+.highlights-left p {
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+.highlights-right img {
+  width: 567px;
+  height: 427px;
+}
+
+/* ---------------footer section starts here  ----------*/
+.footer-logo {
+  text-align: center;
+}
+.footer-logo img {
+  width: 484px;
+  height: 110px;
+}
+.social-icons {
+  text-align: center;
+}
+.social-icons img {
+  padding-right: 14px;
+  width: 32px;
+  height: 32px;
+}
+.copyright {
+  text-align: center;
+}
+.copyright p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000, 100%;
+  margin-top: 20px;
+  margin-bottom: 63px;
+}
+
+/*------- matches section---------- */
+
+.standout {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.standout-title {
+  text-transform: capitalize;
+  color: white;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+.match-title {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-family: "Tourney", cursive;
+  color: black;
+}
+.standout-matches {
+  align-items: center;
+}
+.match {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+.team {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.versus {
+  padding: 2px 20px;
+  justify-content: center;
+  font-size: xx-large;
+}
+.team-logo img {
+  width: 42px;
+  height: 42px;
+}
+.team-name {
+  text-transform: uppercase;
+}
+.team-logo {
+  padding-left: 10px;
+}
+/* <!------------------- official partners sections starts here ------------> */
+.official-partners {
+  text-align: center;
+}
+.official-partners h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Tourney", cursive;
+  font-size: 50px;
+  color: black;
+}
+.partners-logo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.logo img {
+  width: 120px;
+  height: 65px;
+  padding: 50px 0px;
+}
+.logo-im:hover {
+  transform: scale(1.7);
+  transition: transform 2s;
+}
+/* -----------------media queries -----------------*/
+
+/*----------------- for mobile phones ---------------*/
+
+@media only screen and (max-width: 688px) {
+  main {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin-left: 0px;
+  }
+  header {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .header-left {
+    margin-left: 30px;
+  }
+  .header-right img {
+    width: 100%;
+    margin-right: 0px;
+  }
+  /* ----------players sections style----------  */
+
+  .player {
+    width: 100%;
+  }
+  .player-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+  .player-info {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #6c6c6c;
+    padding-left: 10px;
+    margin-top: 0;
+  }
+  .player-image img {
+    padding-left: 22px;
+    width: 320px;
+    height: 256px;
+  }
+
+  /*------- highlights section's style-----  */
+
+  .highlights {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+  }
+  .highlights-left {
+    width: 329px;
+    height: 299px;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .highlights-right img {
+    width: 100%;
+    text-align: center;
+  }
+  .partners-logo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logo-im:hover {
+    transform: scale(1.7);
+    transition: transform 2s;
+  }
+  footer {
+    width: 100%;
+    align-items: center;
+  }
+  .footer-logo img {
+    padding-top: 10px;
+    padding-bottom: 28px;
+    width: 275px;
+    height: 63px;
+    text-align: center;
+  }
+  .copyright {
+    margin-top: 20px;
+    margin-bottom: 187px;
+  }
+  .social-icons img {
+    padding-right: 10px;
+    width: 32px;
+    height: 32px;
+  }
+  .copyright p {
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000000;
+  }
+  .standout {
+    width: 100%;
+  }
+  /* .highlights {
+    flex-direction: column;
+    width: 100%;
+  } */
+}
